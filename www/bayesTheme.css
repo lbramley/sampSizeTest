@@ -1,0 +1,51 @@
+h3 {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.redline:after {
+  display: inline-block;
+  content: "";
+  height: 2px;
+  background: #ff0000;
+  position: relative;
+  width: 10%;
+  top: 4px;
+  right: 5px;
+  margin:8px;
+}
+
+.blueline:after {
+  display: inline-block;
+  content: "";
+  height: 2px;
+  background: #425cf4;
+  position: relative;
+  width: 10%;
+  margin-left: 0px;
+  text-align: left;
+  top: 4px;
+  right: 5px;
+  margin:8px;
+}
+
+.greenline:after {
+  display: inline-block;
+  content: "";
+  height: 2px;
+  background: #31d837;
+  position: relative;
+  width: 10%;
+  top: 4px;
+  right: 5px;
+  margin:8px;
+}
+
+#legend {
+  position: relative;
+  left: 50%;
+  margin: 0 0 0 -250px;
+}
